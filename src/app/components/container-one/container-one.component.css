@@ -1,0 +1,14 @@
+.containerOne {
+    width: 290px;
+    height: 100%;
+    background-image: url("/assets/images/drawers.jpg");
+}
+
+@media (max-width: 768px) {
+    .containerOne {
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 205px;
+        background-size: cover;
+    }
+}

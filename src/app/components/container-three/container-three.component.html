@@ -1,0 +1,25 @@
+<div class='containerThree flex justify-between items-center'>
+    <div class="imgContainer flex items-center gap-3.5">
+        <div class="michelleImg bg-cover"></div>
+        <div class="nameDate">
+            <h2>Michelle Appleton</h2>
+            <h3>28 Jun 2020</h3>
+        </div>
+    </div>
+
+    <div class="shareIcon relative flex justify-center items-center cursor-pointer" (click)="onClickTooltip()">
+        <div class="tooltip flex absolute justify-center items-center gap-3.5 " *ngIf="showTooltip">
+            <p class="shareText">Share</p>
+            <div class="icons flex gap-3.5">
+                <img src="/assets/images/icon-facebook.svg" />
+                <img src="/assets/images/icon-twitter.svg" />
+                <img src="/assets/images/icon-pinterest.svg" />
+            </div>
+            <div class="triangle"></div>
+        </div>
+        <img class="shareImg" src="/assets/images/icon-share.svg" />
+    </div>
+    <div class="shareIconMobile hidden" id="share_icon_mobile">
+        <img class="shareImgMobile" src="/assets/images/icon-share-gray.svg" />
+    </div>
+</div>

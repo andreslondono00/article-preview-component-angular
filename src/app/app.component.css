@@ -1,0 +1,17 @@
+.appContainer {
+    width: 735px;
+    height: 280px;
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 325px;
+        height: 515px;
+    }
+
+    .appContainer {
+        width: 100%;
+        height: 515px;
+        flex-direction: column;
+    }
+}

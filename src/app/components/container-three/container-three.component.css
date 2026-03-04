@@ -1,0 +1,43 @@
+.containerThree {
+    margin-top: 20px;
+}
+
+.michelleImg {
+    background-image: url(/assets/images/avatar-michelle.jpg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.shareIcon {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(109, 127, 151);
+    border-radius: 50%;
+}
+
+.tooltip {
+    width: 250px;
+    height: 60px;
+    background-color: rgb(72, 85, 106);
+    bottom: 50px;
+    border-radius: 10px;
+}
+
+.tooltip .shareText {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(158, 175, 194);
+    margin: 0px;
+}
+
+.nameDate h3 {
+    color: hsl(212, 23%, 69%);
+}
+
+@media (max-width:768px) {
+    .containerThree {
+        margin-top: 40px;
+    }
+
+}
